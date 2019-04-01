@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  background-color: rgb(18, 210, 110);
+  text-align: center;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  color: white;
+}
+
+.myList {
+  margin-top: 30px;
+}
+
+.myList ul {
+  padding: 8px 0px;
+}
+
+.myList ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 0px;
+  font-family: sans-serif;
+  margin: 5px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  border: 2px groove white;
+  border-radius: 5px;
+  padding: 9px 10px;
+
+}
+
+li a:hover {
+  background-color: grey;
+  border: 2px groove rgb(18, 210, 110);
+}
+
+#map{
+  margin-top: 40px;
+}

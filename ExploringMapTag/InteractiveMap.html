@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Interactive Map</title>
+  </head>
+  <body>
+    <link rel="stylesheet" href="InteractiveMap.css" type="text/css">
+    <div class="container">
+      <h1>Interactive Map</h1>
+      <div class="myList" id="list">
+        <ul>
+          <li><a id="officeBlue" href="#">Offices</a></li>
+          <li><a id="countrysideRed" href="#">Countryside</a></li>
+          <li><a id="playgroundGreen" href="#">Playground</a></li>
+          <li><a id="houseYellow" href="#">House</a></li>
+          <li><a id="industriesPink" href="#">Industries</a></li>
+        </ul>
+      </div>
+
+      <img id="myMap" src="http://www.sarabianchi.it/code-images/mappa-interattiva/img/map-original.png" alt="map">
+      <map id="map">
+          <area href="#" shape="poly" coords="296,81,219,125,313,176,359,162,363,145,377,139,383,135" />
+          <area href="#" shape="poly" coords="198,129,180,139,170,137,170,104,169,78,171,67,153,57,151,18,139,5,122,15,120,42,118,65,109,73,106,91,108,122,107,147,106,163,105,190,105,198,98,198,109,204,135,218,173,242,195,252,223,248,243,235,256,228,265,221,251,193,253,170" />
+          <area href="#" shape="poly" coords="596,362,578,343,561,337,550,338,541,331,538,323,536,298,534,285,519,257,504,284,500,291,498,306,489,302,486,301,478,305,471,305,464,300,447,287,432,283,427,282,419,288,417,298,411,312,410,306,411,285,408,258,408,235,398,221,385,206,375,216,365,223,360,228,356,239,355,261,358,281,356,291,348,295,340,299,336,301,333,299,329,290,329,283,310,272,304,267,290,274,286,277,284,279,282,294,281,315,280,331,277,337,287,348,307,357,340,376,374,396,407,415,453,442" />
+          <area href="#" shape="poly" coords="567,245,509,206,468,185,471,155,469,120,468,97,444,82,419,99,415,115,418,139,417,148,405,141,393,134,390,134,380,139,367,144,367,146,363,155,362,167,362,183,363,206,407,220,424,232,423,238,424,247,437,256,460,267,486,282,505,274,509,257,536,260" />
+          <area href="#" shape="poly" coords="242,253,182,286,248,321,279,301,282,284,283,278" />
+      </map>
+      <script type="text/javascript" src="InteractiveMap.js">
+      </script>
+    </div>
+  </body>
+</html>
