@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>Email Validation</title>
+  </head>
+  <body>
+    <link rel="stylesheet" href="EmailValidation.css" type="text/css">
+    </style>
+    <header>
+      <h1>Welcome</h1>
+    </header>
+    <main>
+      <form id="myForm">
+      <div class="mail">
+        Email:<input id="myMail" type="text" pattern="[a-z0-9._%+-]+@[a-z0-9]+\.[a-z]{2,}$" title="Please input a valid email address">
+      </div>
+      <div class="pwd">
+        Password:<input id="myPwd" type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*()-+=.,~`]).{6,}">
+      </div>
+      <div class="button">
+        <button type="submit" id="submit">Submit</button>
+        <button type="reset" id="cancel" >Cancel</button>
+        <script type="text/javascript" src="EmailValidation.js"></script>
+      </div>
+      </form>
+    </main>
+  </body>
+</html>
