@@ -1,0 +1,114 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: rgba(50, 100, 180, 0.6);
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.intro {
+  margin: 30px 0px;
+  font-weight: bold;
+}
+
+h1 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 750;
+}
+
+p {
+  font-weight: 550;
+  font-size: 17px;
+}
+
+#first {
+  margin-top: 10px;
+  color: rgb(220,220,100);
+}
+
+#second {
+  color: rgb(80,255,150);
+}
+
+#third {
+  color: rgb(50,50,255);
+  margin-bottom: 30px;
+}
+
+input {
+  border-radius: 5px;
+  min-width: 45%;
+  padding: 5px;
+  border: none;
+}
+
+#enter {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 15px;
+  color: rgba(255,225,200,0.8);
+  background-color: rgba(0,30,0,0.6);
+  transition: all 0.75s ease;
+  -webkit-transition: all 0.75s ease;
+  -moz-transition: all 0.75s ease;
+	-ms-transition: all 0.75s ease;
+	-o-transition: all 0.75 ease;
+	font-weight: normal;
+}
+
+#enter:hover {
+  color: rgba(255,225,200,1);
+  background-color: rgba(0,30,0,0.8);
+}
+
+.listItems {
+  text-align: center;
+}
+
+ul {
+  text-align: left;
+  margin-top: 30px;
+  display: inline-block;
+  width: 45%;
+}
+
+li {
+  border: 2px solid blue;
+  border-radius: 5px;
+  padding: 8px 20px;
+  text-transform: capitalize;
+  color: white;
+  background: rgba(0,0,255,0.6);
+  list-style: none;
+  margin-bottom: 10px;
+  transition: all 0.75s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5 ease;
+}
+
+li:hover {
+  background: rgba(0,0,255,0.3);
+}
+
+li > button {
+  float: right;
+  color: black;
+  border: none;
+  background: none;
+  font-weight: 600;
+}
+
+.done {
+  background: rgba(0,255,0,0.6) !important;
+  color: white;
+}
+
+.delete {
+  display: none;
+}
